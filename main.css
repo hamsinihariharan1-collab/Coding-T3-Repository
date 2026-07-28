@@ -1,13 +1,24 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins');
+@import url('https://fonts.googleapis.com/css2?family=Exo+2');
 
-h1, h2 {
+h3{
 
-  color: rgb(210, 223, 224);
-  background-color: #455b8f;
-  font-family: 'Poppins';
+  color: #ffa008;
+  background-color: #1e232a;
+  font-family: 'Exo 2';
+  padding: 40px;
+  text-align: left;
+  width: 1100px;
+}
+h1{ color: #ffa008;
+  font-size: 30px;
+  text-align: center;
+  padding: 30px;
 }
 
-body{ background-color: #FEFBEA; }
+body{ background-color: #FEFBEA;
+margin: 0px;
+}
 
-a{text-decoration: none; 
+a{text-decoration: none;
+  color: #ffa008;
  }
