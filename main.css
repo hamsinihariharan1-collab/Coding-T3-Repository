@@ -1,4 +1,11 @@
-h1 {
-  font-size: 50px;
-  color: rgb(255, 0, 179);
+@import url('https://fonts.googleapis.com/css2?family=Poppins');
+
+h1, h2 {
+
+  color: rgb(210, 223, 224);
+  background-color: #455b8f;
+  font-family: 'Poppins';
+
 }
+body{ background-color: #FEFBEA; }
+
