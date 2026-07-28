@@ -5,7 +5,9 @@ h1, h2 {
   color: rgb(210, 223, 224);
   background-color: #455b8f;
   font-family: 'Poppins';
-
 }
+
 body{ background-color: #FEFBEA; }
 
+a{text-decoration: none; 
+ }
