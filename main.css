@@ -1,15 +1,24 @@
 @import url('https://fonts.googleapis.com/css2?family=Exo+2');
 @import url('https://fonts.googleapis.com/css2?family=Orbitron');
 
+body{ background-color: #FEFBEA;
+margin: 0px;
+}
+
 .homepagenavigationbar{
   background-color: #1E232A;
   font-family: 'Exo 2';
   padding: 10px 20px;
   width: 100%;
-  height:100px
-  text-align: center;
-
+  height:100px;
+  align-items: center;
+  display: flex;
 }
+.navigation-link.active{ 
+  text-decoration: underline;
+  color:#FEFBEA;
+}
+
 .homepagetitle{ 
   color: #ffa008;
   font-family: 'Orbitron';
@@ -26,7 +35,7 @@ margin: 0px;
 .navigation-link{text-decoration: none;
   color: #ffa008;
   vertical-align: middle;
-  padding:0 100px; 
+  padding:0 120px; 
 }
 
  img{width: 50%;
@@ -52,15 +61,22 @@ margin: 0px;
   width: 350px;
   padding: 10px;
   background-color: #1E232A;
-  margin-left: 50px;
   border-radius: 30px;
+  margin-left: 300px;
 }
 
 .cardBookaflight{ 
   width: 350px;
   padding: 10px;
   background-color: #1E232A;
-  margin-left: 200px;
+  border-radius: 30px;
+}
+
+
+.cardGoPhish{
+  width: 350px;
+  padding: 10px;
+  background-color: #1E232A;
   border-radius: 30px;
 }
 
@@ -71,22 +87,55 @@ margin: 0px;
   text-align: center;
   text-decoration: underline;
   padding: 0;
+}
 
 .BookaflightTitle{
+  width:350px;
+  font-family: 'Orbitron';
+  color: #ffa008;
+  text-align: center;
+  text-decoration: underline; --
+}
+
+.GoPhishTitle{
+  width:350px;
   font-family: 'Orbitron';
   color: #ffa008;
   text-align: center;
   text-decoration: underline;
   padding: 0;
-  }
 }
-.cyberforesthomepageimage{
+
+.homepageimage{
   width: 300px;
   height: auto;
   display: block;
   margin-left: auto;
   margin-right: auto;
-  padding-top:0px;
+} 
+
+.cyberforesthomepagedescription{
+  text-align: center;
+  font-size: 20px;
+  padding: 1px 5px 1px 5px;
+  font-family: 'Exo 2';
+  color: #ffa008;
+}
+
+.bookaflighthomepagedescription{
+  text-align: center;
+  font-size: 20px;
+  padding: 1px 5px 1px 5px;
+  font-family: 'Exo 2';
+  color: #ffa008;
+}
+
+.gophishhomepagedescription{
+  text-align: center;
+  font-size: 20px;
+  padding: 1px 5px 1px 5px;
+  font-family: 'Exo 2';
+  color: #ffa008;
 }
 
 .cyberforesthomepagedescription{
@@ -97,7 +146,7 @@ margin: 0px;
   color: #ffa008;
 }
 
-.CyberforestSeeMore{
+.SeeMore{
   background-color: #ffa008;
   padding: 10px;
   text-align: center;
@@ -105,10 +154,37 @@ margin: 0px;
   margin-left: 50px;
   margin-right: 50px;
 }
+.SeeMore:hover { 
+  text-decoration: underline;
+  color:#FEFBEA;
+  }
 
 .button{
   color:#FEFBEA;
   text-decoration: none;
   font-family: 'Orbitron';
 
+}
+.cardbundle{
+  display: flex;
+  gap: 100px;
+}
+
+.homepagesubtitle{
+  color: #ffa008;
+  font-family: 'Orbitron';
+  font-weight: bold;
+  font-size: 30px;
+  text-align: center;
+  padding: 30px 0px 00px 0px;
+  padding-top:60px;
+}
+.homepagesubtitledescription{
+  text-align: center;
+  font-size: 20px;
+  padding: 1px 5px 1px 5px;
+  font-family: 'Exo 2';
+  color: #ffa008;
+  margin-left: 300px;
+  margin-right: 300px;
 }
