@@ -1,8 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Exo+2');
 @import url('https://fonts.googleapis.com/css2?family=Orbitron');
 
+
 body{ background-color: #FEFBEA;
 margin: 0px;
+}
+
+.bookaflightbody{
+  background-color: #ffe455;
+  margin: 0px;
 }
 
 .homepagenavigationbar{
@@ -14,9 +20,41 @@ margin: 0px;
   align-items: center;
   display: flex;
 }
+
+.homepagenavigationbar1{              
+  background-color: #1E232A;
+  font-family: 'Exo 2';
+  padding: 10px 20px;
+  width: 100%;
+  height:100px;
+  align-items: center;
+  display: flex;
+  margin-bottom: 50px;
+}
+/* This is for hamsinis website, so that the navigation bar is a different colour on her webpage */
+
 .navigation-link.active{ 
   text-decoration: underline;
   color:#FEFBEA;
+}
+.navigation-link.active1{ 
+  text-decoration: underline;
+  color:#ffe455;
+}
+/* This is for hamsinis website, so that the the link that she is in is a different colour on her webpage in the navigation bar*/
+
+.navigation-link{
+  text-decoration: none;
+  color: #ffa008;
+  vertical-align: middle;
+  padding:0 120px; 
+}
+
+.navigation-link1{ 
+  text-decoration: none;
+  color: #ff5659;
+  vertical-align: middle;
+  padding:0 120px; 
 }
 
 .homepagetitle{ 
@@ -25,21 +63,9 @@ margin: 0px;
   font-weight: bold;
   font-size: 30px;
   text-align: center;
-  padding: 30px;
+  padding: 20px;
 }
 
-body{ background-color: #FEFBEA;
-margin: 0px;
-}
-
-.navigation-link{text-decoration: none;
-  color: #ffa008;
-  vertical-align: middle;
-  padding:0 120px; 
-}
-
- img{width: 50%;
-}
 
 .main-screenshot {
   text-align: center;
@@ -47,8 +73,10 @@ margin: 0px;
 }
 
 .headerforbookaflight {
-  width: 100%;
-  height: auto;
+  height: 600px;
+  padding-right: 893.5px;
+  background-color: #ff5659;
+  display: flex;
 }
 
 .homepagelogo{
@@ -94,7 +122,7 @@ margin: 0px;
   font-family: 'Orbitron';
   color: #ffa008;
   text-align: center;
-  text-decoration: underline; --
+  text-decoration: underline; 
 }
 
 .GoPhishTitle{
@@ -168,6 +196,7 @@ margin: 0px;
 .cardbundle{
   display: flex;
   gap: 100px;
+  padding-bottom:100px;
 }
 
 .homepagesubtitle{
@@ -176,8 +205,6 @@ margin: 0px;
   font-weight: bold;
   font-size: 30px;
   text-align: center;
-  padding: 30px 0px 00px 0px;
-  padding-top:60px;
 }
 .homepagesubtitledescription{
   text-align: center;
@@ -187,4 +214,97 @@ margin: 0px;
   color: #ffa008;
   margin-left: 300px;
   margin-right: 300px;
+}
+
+.DeviceCard{
+  padding:15px 100px 100px 100px;
+  background-color:#1E232A;
+  width: 100px;
+  border-radius: 30px;
+  font-family: 'Exo 2';
+  color: #ffa008;
+  text-align: center;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+
+}
+
+.main-screenshot{
+  width: 50%;
+  margin-left: 80px;
+  margin-right: 80px;
+  text-align: center;
+}
+
+.devicelineup{
+  display:flex;
+  gap: 50px;
+  margin-left:300px;
+}
+
+.whybitbundle{
+  background-color:#1E232A;
+  padding: 50px;
+  width: 1905px;
+}
+
+.fa {
+  font-size: 20px;
+}
+.fa fa-brands fa-windows{
+  font-size: 20px;
+}
+.homepageicon{
+  width: 30px;
+  height: auto;
+}
+.homepageicon1{
+  width: 35px;
+  height: auto;
+}
+
+.whybookaflightcontainer{
+  background-color: #aaecff;
+  width: 100%;
+  height: 500px;
+  margin-top: 100px
+}
+
+.coolertitle{
+  font-family: 'Orbitron';
+  text-align: center;
+  color:#ABBFC7 ;
+  font-size: 40px;
+}
+
+
+.whybookaflighttitle{
+  color: #ff5659;
+  font-family: 'Orbitron';
+  padding-left: 100px;
+  padding-top: 50px; 
+  margin-bottom: 0px;
+}
+
+.whybookaflightdescription{
+  font-family: 'Exo 2';
+  font-size: 30px;
+  margin-top: 20px;
+  margin-left: 40px;
+  margin-right: 600px;
+}
+
+.coolerdescription{
+  font-family: "Orbitron";
+  text-align: center;
+  color: ;  
+  font-size: 30px;
+  background-color: #ABBFC;
+}
+
+.mysupercoolimage{
+  width: 50%;
+  margin-left: 450;
+  margin-right: auto;
 }
