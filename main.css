@@ -274,9 +274,9 @@ margin: 0px;
 .coolertitle{
   font-family: 'Orbitron';
   text-align: center;
-  background-color:#c4d1dc ;
+  color:#c4d1dc ;
   font-size: 40px;
-  color: #392719; 
+  background-color: #392719; 
   padding: 0;
   margin: 0;
 }
@@ -302,9 +302,9 @@ margin: 0px;
 .coolerdescription{
   font-family: "Orbitron";
   text-align: center;
-  color: #392719;  
+  background-color: #392719;  
   font-size: 30px;
-  background-color: #c4d1dc;
+  color: #c4d1dc;
   padding: 0;
   margin: 0;
 }
