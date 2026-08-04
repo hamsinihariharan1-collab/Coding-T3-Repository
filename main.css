@@ -74,7 +74,7 @@ margin: 0px;
 
 .headerforbookaflight {
   height: 600px;
-  padding-right: 893.5px;
+  padding-right: 775px;
   background-color: #ff5659;
   display: flex;
 }
@@ -294,6 +294,13 @@ margin: 0px;
   font-size: 40px;
 }
 
+.bookaflighticon{
+  width: 550px;
+  height: auto;
+  margin-left: 1200px;
+  margin-top: -470px;
+}
+
 
 .whybookaflighttitle{
   color: #ff5659;
@@ -308,7 +315,7 @@ margin: 0px;
   font-size: 30px;
   margin-top: 20px;
   margin-left: 40px;
-  margin-right: 600px;
+  margin-right: 700px;
 }
 
 .coolerdescription{
@@ -323,4 +330,39 @@ margin: 0px;
   width: 50%;
   margin-left: 450;
   margin-right: auto;
+}
+
+.educationalbenefitstitle{
+  color: #ff5659;
+  font-family: 'Orbitron';
+  text-align: center;
+  padding-top: 50px; 
+  margin-bottom: 0px;
+}
+.educationalbenefitsdotpoint{
+  font-family: 'Exo 2';
+  font-size: 25px;
+  color: #ff5659;
+}
+.BookaflightEducationalBenefits{
+  width:400px;
+  height: auto;
+  margin-left: 50px;
+}
+
+.educationalbenefitsimage{
+  width: 400px;
+  height: auto;
+  margin-left: 50px;
+}
+.educationalbenefitscontainer{
+  display: flex;
+}
+
+.educationalbenefitsdotpointcontainer{
+  margin-left: 50px;
+}
+.fa-solid.fa-circle {
+  color: #ff5659;
+  font-size: 15px;
 }
