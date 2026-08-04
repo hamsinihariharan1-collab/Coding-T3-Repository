@@ -66,10 +66,10 @@ margin: 0px;
   padding: 20px;
 }
 
-
 .main-screenshot {
   text-align: center;
-  padding: 30px;
+  margin-left: 450px;
+  margin-right: auto;
 }
 
 .headerforbookaflight {
