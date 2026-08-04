@@ -274,10 +274,13 @@ margin: 0px;
 .coolertitle{
   font-family: 'Orbitron';
   text-align: center;
-  background-color:#ABBFC7 ;
+  background-color:#c4d1dc ;
   font-size: 40px;
-  color: #1E232A;  
+  color: #392719; 
+  padding: 0;
+  margin: 0;
 }
+
 
 
 .whybookaflighttitle{
@@ -299,8 +302,10 @@ margin: 0px;
 .coolerdescription{
   font-family: "Orbitron";
   text-align: center;
-  color: #1E232A;  
+  color: #392719;  
   font-size: 30px;
-  background-color: #ABBFC7;
+  background-color: #c4d1dc;
+  padding: 0;
+  margin: 0;
 }
 
