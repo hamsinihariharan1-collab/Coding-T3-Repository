@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Exo+2');
 @import url('https://fonts.googleapis.com/css2?family=Orbitron');
-
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P');
+@import url('https://fonts.googleapis.com/css2?family=Share+Tech+Mono');
 
 body{ background-color: #FEFBEA;
 margin: 0px;
@@ -23,7 +24,8 @@ margin: 0px;
 
 .homepagenavigationbar1{              
   background-color: #1E232A;
-  font-family: 'Exo 2';
+  font-family: 'Share Tech Mono';
+   letter-spacing: -0.05em;
   padding: 10px 20px;
   width: 100%;
   height:100px;
@@ -301,17 +303,17 @@ margin: 0px;
   margin-top: -470px;
 }
 
-
 .whybookaflighttitle{
   color: #ff5659;
-  font-family: 'Orbitron';
-  padding-left: 100px;
+  font-family: 'Press Start 2P';
+  padding-left: 50px;
   padding-top: 50px; 
   margin-bottom: 0px;
 }
 
 .whybookaflightdescription{
-  font-family: 'Exo 2';
+  font-family: 'Share Tech Mono';
+   letter-spacing: -0.05em;
   font-size: 30px;
   margin-top: 20px;
   margin-left: 40px;
@@ -334,26 +336,28 @@ margin: 0px;
 
 .educationalbenefitstitle{
   color: #ff5659;
-  font-family: 'Orbitron';
+  font-family: 'Press Start 2P';
+  font-size: 25px;
   text-align: center;
   padding-top: 50px; 
-  margin-bottom: 0px;
+  margin-bottom: 25px;
 }
 .educationalbenefitsdotpoint{
-  font-family: 'Exo 2';
+  font-family: 'Share Tech Mono';
+  letter-spacing: -0.05em;
   font-size: 25px;
   color: #ff5659;
 }
 .BookaflightEducationalBenefits{
   width:400px;
   height: auto;
-  margin-left: 50px;
+  margin-left: 100px;
 }
 
 .educationalbenefitsimage{
   width: 400px;
   height: auto;
-  margin-left: 50px;
+  margin-left: 100px;
 }
 .educationalbenefitscontainer{
   display: flex;
@@ -361,8 +365,16 @@ margin: 0px;
 
 .educationalbenefitsdotpointcontainer{
   margin-left: 50px;
+  margin-right: 100px;
 }
 .fa-solid.fa-circle {
   color: #ff5659;
   font-size: 15px;
+}
+.reviewsitle{
+  color: #ff5659;
+  font-family: 'Press Start 2P';
+  text-align: center;
+  margin-bottom: 0px;
+  font-size: 25px;
 }
