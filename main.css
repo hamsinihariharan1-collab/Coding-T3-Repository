@@ -1,17 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Exo+2');
 @import url('https://fonts.googleapis.com/css2?family=Orbitron');
-@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P');
-@import url('https://fonts.googleapis.com/css2?family=Share+Tech+Mono');
 
+/* Homepage Code */
 body{ background-color: #FEFBEA;
 margin: 0px;
 }
-
-.bookaflightbody{
-  background-color: #ffe455;
-  margin: 0px;
-}
-
 .homepagenavigationbar{
   background-color: #1E232A;
   font-family: 'Exo 2';
@@ -22,29 +15,6 @@ margin: 0px;
   display: flex;
 }
 
-.homepagenavigationbar1{              
-  background-color: #1E232A;
-  font-family: 'Share Tech Mono';
-   letter-spacing: -0.05em;
-  padding: 10px 20px;
-  width: 100%;
-  height:100px;
-  align-items: center;
-  display: flex;
-  margin-bottom: 50px;
-}
-/* This is for hamsinis website, so that the navigation bar is a different colour on her webpage */
-
-.navigation-link.active{ 
-  text-decoration: underline;
-  color:#FEFBEA;
-}
-.navigation-link.active1{ 
-  text-decoration: underline;
-  color:#ffe455;
-}
-/* This is for hamsinis website, so that the the link that she is in is a different colour on her webpage in the navigation bar*/
-
 .navigation-link{
   text-decoration: none;
   color: #ffa008;
@@ -52,11 +22,9 @@ margin: 0px;
   padding:0 120px; 
 }
 
-.navigation-link1{ 
-  text-decoration: none;
-  color: #ff5659;
-  vertical-align: middle;
-  padding:0 120px; 
+.navigation-link.active{ 
+  text-decoration: underline;
+  color:#FEFBEA;
 }
 
 .homepagetitle{ 
@@ -66,19 +34,6 @@ margin: 0px;
   font-size: 30px;
   text-align: center;
   padding: 20px;
-}
-
-.mainscreenshot {
-  text-align: center;
-  margin-left: 450px;
-  margin-right: auto;
-}
-
-.headerforbookaflight {
-  height: 600px;
-  padding-right: 775px;
-  background-color: #ff5659;
-  display: flex;
 }
 
 .homepagelogo{
@@ -101,24 +56,6 @@ margin: 0px;
   background-color: #1E232A;
   border-radius: 30px;
 }
-
-.cyberforestheading{
-  font-family: 'Orbitron';
-  text-align: center;
-  color: lime;
-  text-decoration: underline;
-}
-
-.cyberforestbody{
-  background-image: linear-gradient(#004e01, green);
-}
-
-.cyberforesttext{
-  font-family: 'Orbitron';
-  font-size: 30px;
-  text-align: center;
-}
-
 
 .cardGoPhish{
   width: 350px;
@@ -185,14 +122,6 @@ margin: 0px;
   color: #ffa008;
 }
 
-.cyberforesthomepagedescription{
-  text-align: center;
-  font-size: 20px;
-  padding: 1px 5px 1px 5px;
-  font-family: 'Exo 2';
-  color: #ffa008;
-}
-
 .SeeMore{
   background-color: #ffa008;
   padding: 10px;
@@ -225,6 +154,7 @@ margin: 0px;
   font-size: 30px;
   text-align: center;
 }
+
 .homepagesubtitledescription{
   text-align: center;
   font-size: 20px;
@@ -235,6 +165,13 @@ margin: 0px;
   margin-right: 300px;
 }
 
+.whybitbundle{
+  background-color:#1E232A;
+  padding: 50px;
+  width: 1905px;
+}
+
+/* Code Used for the Devices */
 .DeviceCard{
   padding:15px 100px 100px 100px;
   background-color:#1E232A;
@@ -249,22 +186,10 @@ margin: 0px;
 
 }
 
-.mainscreenshot{
-  width: 50%;
-  margin-left: 90px;
-  margin-right: auto;
-}
-
 .devicelineup{
   display:flex;
   gap: 50px;
   margin-left:300px;
-}
-
-.whybitbundle{
-  background-color:#1E232A;
-  padding: 50px;
-  width: 1905px;
 }
 
 .fa {
@@ -277,23 +202,167 @@ margin: 0px;
   width: 30px;
   height: auto;
 }
+
 .homepageicon1{
   width: 35px;
   height: auto;
 }
+/* Code Used for the Footer */
+.homepagefooter{
+  margin-top: 50px;
+  background-color: #ffa008;
+  width: 100%;
+  height: 320px;
+  padding-top: 20px;
+  padding-left: 20px;
+  display:flex
+}
 
+.pagedetailslink{
+  font-family: 'Exo 2';
+  color: #1E232A;
+  font-size: 20px;
+  text-decoration: none;
+}
+
+.pagedetailslink:hover{
+  font-family: 'Exo 2';
+  color: #1E232A;
+  font-size: 20px;
+  text-decoration: underline;
+}
+
+.contacttitle{
+  font-family: 'Exo 2';
+  color: #1E232A;
+  font-style: italic;
+  padding-top: 20px;
+}
+
+.contactdetail{
+  font-family: 'Exo 2';
+  color: #1E232A;
+  font-size: 20px;
+}
+
+.footercentercolumntitle{
+  font-family: 'Exo 2';
+  color: #1E232A;
+  font-style: italic;
+  margin-left:400px
+}
+
+.footercentercolumnimage{
+  width: 400px;
+  height: auto;
+  margin-left: 400px;
+  padding-bottom: 30px;
+}
+
+.StayConnectedtitle{
+  font-family: 'Exo 2';
+  color: #1E232A;
+  font-style: italic;
+  margin-left:350px
+}
+
+.StayConnectedImage{
+  width: 300px;
+  height: auto;
+  margin-left: 350px;
+  padding-bottom: 30px;
+}
+
+.SecuredByTitle{
+  font-family: 'Exo 2';
+  color: #1E232A;
+  font-style: italic;
+  margin-left:350px;
+  font-size: 15px;
+  padding-bottom: 0px;
+}
+
+.SecuredByImage{
+  width: 200px;
+  height: auto;
+  margin-left: 350px;
+  border-radius: 20px;
+}
+
+/* End of Homepage Code! */
+
+
+/* Bookaflight Code */
+/* Bookaflight Header */
+.bookaflightbody{
+  background-color: #ffe455;
+  margin: 0px;
+}
+
+.headerforbookaflight {
+  height: 600px;
+  background-color: #ff5659;
+    display: block;
+}
+
+.bookaflightheadercontainer {
+  display: flex;
+  height: 600px;
+  background-color: #ff5659;
+  align-items: center;
+}
+
+.bookaflightheadertextcontainer{
+  margin-left: 50px;
+  margin-right: 50px;
+  background-color: #aaecff;
+  border-radius: 30px;
+  text-align: center;
+}
+
+.bookaflightheadertext{
+  font-family: 'Orbitron';
+  color: #ff5659;
+  font-size: 40px;
+  margin-bottom:0;
+}
+
+.bookaflightheaderdescription{
+  font-family: 'Exo 2';
+  color: #ff5659;
+  font-size: 20px;
+  margin-left: 30px;
+  margin-right: 30px;
+  margin-top: 0;
+}
+
+.GetBundleButton{
+  background-color: #ffe445;
+  padding: 10px;
+  text-align: center;
+  border-radius: 10px;
+  margin-left: 70px;
+  margin-right: 70px;
+}
+
+.getbundleclickingbutton{
+  color:#1E232A;
+  text-decoration: none;
+  font-family: 'Orbitron';
+}
+
+.getbundleclickingbutton:hover { 
+  text-decoration: underline;
+  color:#1E232A;
+  }
+
+
+/* Why Bookaflight Code */
 .whybookaflightcontainer{
   background-color: #aaecff;
   width: 100%;
   height: 500px;
   margin-top: 100px
-}
-
-.coolertitle{
-  font-family: 'Orbitron';
-  text-align: center;
-  color:#ABBFC7 ;
-  font-size: 40px;
 }
 
 .bookaflighticon{
@@ -305,45 +374,30 @@ margin: 0px;
 
 .whybookaflighttitle{
   color: #ff5659;
-  font-family: 'Press Start 2P';
+  font-family: 'orbitron';
   padding-left: 50px;
   padding-top: 50px; 
   margin-bottom: 0px;
 }
 
 .whybookaflightdescription{
-  font-family: 'Share Tech Mono';
-   letter-spacing: -0.05em;
+  font-family: 'Exo 2';
   font-size: 30px;
   margin-top: 20px;
   margin-left: 40px;
   margin-right: 700px;
 }
-
-.coolerdescription{
-  font-family: "Orbitron";
-  text-align: center;
-  color: #1E232A;  
-  font-size: 30px;
-  background-color: #ABBFC7;
-}
-
-.mysupercoolimage{
-  width: 50%;
-  margin-left: 450;
-  margin-right: auto;
-}
-
+/* Educational Benefits Code */
 .educationalbenefitstitle{
   color: #ff5659;
-  font-family: 'Press Start 2P';
-  font-size: 25px;
+  font-family: 'Orbitron';
   text-align: center;
   padding-top: 50px; 
   margin-bottom: 25px;
 }
+
 .educationalbenefitsdotpoint{
-  font-family: 'Share Tech Mono';
+  font-family: 'Exo 2';
   letter-spacing: -0.05em;
   font-size: 25px;
   color: #ff5659;
@@ -371,10 +425,56 @@ margin: 0px;
   color: #ff5659;
   font-size: 15px;
 }
-.reviewsitle{
-  color: #ff5659;
-  font-family: 'Press Start 2P';
+
+/* Big T's Cyber Forest Code */
+.mainscreenshot {
   text-align: center;
-  margin-bottom: 0px;
-  font-size: 25px;
+  margin-left: 450px;
+  margin-right: auto;
+}
+
+.cyberforestheading{
+  font-family: 'Orbitron';
+  text-align: center;
+  color: lime;
+  text-decoration: underline;
+}
+
+.cyberforestbody{
+  background-image: linear-gradient(#004e01, green);
+}
+
+.cyberforesttext{
+  font-family: 'Orbitron';
+  font-size: 30px;
+  text-align: center;
+}
+
+
+.mainscreenshot{
+  width: 50%;
+  margin-left: 90px;
+  margin-right: auto;
+}
+
+/* Go Phish Code */
+.coolertitle{
+  font-family: 'Orbitron';
+  text-align: center;
+  color:#ABBFC7 ;
+  font-size: 40px;
+}
+
+.coolerdescription{
+  font-family: "Orbitron";
+  text-align: center;
+  color: #1E232A;  
+  font-size: 30px;
+  background-color: #ABBFC7;
+}
+
+.mysupercoolimage{
+  width: 50%;
+  margin-left: 450;
+  margin-right: auto;
 }
