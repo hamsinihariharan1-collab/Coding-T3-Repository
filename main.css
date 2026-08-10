@@ -476,6 +476,7 @@ margin: 0px;
 
 .cyberforestheading{
   font-family: 'Orbitron';
+  font-size: 50px;
   text-align: center;
   color: lime;
   text-decoration: underline;
@@ -487,7 +488,7 @@ margin: 0px;
 
 .cyberforesttext{
   font-family: 'Orbitron';
-  font-size: 25px;
+  font-size: 30px;
   text-align: center;
   margin-left: 20px;
   margin-right: auto;
@@ -496,7 +497,7 @@ margin: 0px;
 
 .cyberforestsubheading{
   font-family: 'Orbitron';
-  font-size: 30px;
+  font-size: 40px;
   text-align: center;
   margin-left: 20px;
   margin-right: auto;
@@ -528,7 +529,6 @@ margin: 0px;
   display: inline-block;
   text-align: center;
   vertical-align: middle;
-  line-height: 50px;
 }
 
 .mysupercoolimage{
@@ -537,12 +537,5 @@ margin: 0px;
   display: block;
   margin-left: auto;
   margin-right: auto;
+  border-inline: 500px solid #392719;
 }
-
-.cooleroverview{
-  text-align: center;
-  font-family: 'Exo 2';
-  color: #1e232a;
-  text-decoration: underline;
-}
-
