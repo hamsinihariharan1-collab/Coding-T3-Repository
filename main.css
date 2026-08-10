@@ -528,6 +528,7 @@ margin: 0px;
   display: inline-block;
   text-align: center;
   vertical-align: middle;
+  line-height: 50px;
 }
 
 .mysupercoolimage{
@@ -537,3 +538,11 @@ margin: 0px;
   margin-left: auto;
   margin-right: auto;
 }
+
+.cooleroverview{
+  text-align: center;
+  font-family: 'Exo 2';
+  color: #1e232a;
+  text-decoration: underline;
+}
+
