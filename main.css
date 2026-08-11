@@ -468,9 +468,19 @@ margin: 0px;
 }
 
 /* Big T's Cyber Forest Code */
-.mainscreenshot {
+.GetBundleButtonCyberforest{
+  background-color: #ffe445;
+  padding: 10px;
   text-align: center;
-  margin-left: 450px;
+  border-radius: 10px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.mainscreenshot{
+  width: 50%;
+  display: block;
+  margin-left: 90px;
   margin-right: auto;
 }
 
@@ -503,13 +513,6 @@ margin: 0px;
   margin-right: auto;
   color: lime;
   text-decoration: underline;
-}
-
-
-.mainscreenshot{
-  width: 50%;
-  margin-left: 90px;
-  margin-right: auto;
 }
 
 /* Go Phish Code */
