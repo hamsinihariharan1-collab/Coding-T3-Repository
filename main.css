@@ -41,13 +41,13 @@ margin: 0px;
   width: auto;
   padding: 0px;
 }
-
+/* Display overviews of each individual games*/
 .cardCyberforest{
   width: 350px;
   padding: 10px;
   background-color: #1E232A;
   border-radius: 30px;
-  margin-left: 300px;
+  margin-left: 400px;
 }
 
 .cardBookaflight{ 
@@ -147,7 +147,7 @@ margin: 0px;
   padding-bottom:100px;
 }
 
-/* Why bit bundle */
+/* Code for describing why to buy the bit bundle */
 .homepagesubtitle{
   color: #ffa008;
   font-family: 'Orbitron';
@@ -173,7 +173,7 @@ margin: 0px;
   width: 100%;
 }
 
-/* Code Used for the Devices */
+/* Code Used to display the compatible devices */
 .DeviceCard{
   padding:15px 100px 100px 100px;
   background-color:#1E232A;
@@ -469,10 +469,9 @@ margin: 0px;
 
 /* Big T's Cyber Forest Code */
 .mainscreenshot {
-  display: block;
-  margin-left: auto;
+  text-align: center;
+  margin-left: 450px;
   margin-right: auto;
-  width: 75%
 }
 
 .cyberforestheading{
@@ -506,15 +505,11 @@ margin: 0px;
   text-decoration: underline;
 }
 
-.GetBundleButtonCyberforest{
-  background-color: #ffe445;
-  padding: 10px;
-  text-align: center;
-  border-radius: 10px;
-  margin-left: auto;
-  margin-right: auto;
+
+.mainscreenshot{
   width: 50%;
-  display: block;
+  margin-left: 90px;
+  margin-right: auto;
 }
 
 /* Go Phish Code */
@@ -526,28 +521,93 @@ margin: 0px;
   font-weight: bold;
 }
 
+.mysupercoolimage{
+  width: 600px;
+  height: 500px;
+  border-radius: 15px;
+}
+/* Content of the game */
+.cooleroverview{
+  font-family: 'Orbitron';
+  color: #1e232a;
+  text-decoration: underline;
+  font-size: 40px;
+}
+
 .coolerdescription{
   font-family: "Exo 2";
   color: #1E232A;  
-  font-size: 20px;
-  margin: 50px;
-  display: inline-block;
-  text-align: center;
+  font-size: 30px;
   vertical-align: middle;
-  line-height: 50px;
+  
 }
 
-.mysupercoolimage{
-  width: 30%;
-  border-radius: 15px;
-  display: block;
-  margin-left: 510px;
-  margin-right: auto;
+.coolercontainer{
+  display:flex;
+  gap: 70px;
+  margin-left: 70px;
+}
+.fishingcontent{
+  font-family: 'Orbitron';
+  color: #1e232a;
+  font-size: 40px;
+  text-decoration: underline;
+  margin-left: 70px;
 }
 
-.cooleroverview{
-  text-align: center;
+.phishingcontent{
   font-family: 'Exo 2';
   color: #1e232a;
-  text-decoration: underline;
+  font-size: 30px;
+  margin-left: 70px;
 }
+/* Get Bundle Code */
+/* Code for Cost Card */
+.getbundlecostcard{
+  border: 5px solid #ffa008;
+  width: 600px;
+  height:495px;
+  border-radius: 30px;
+  margin-top:40px;
+  text-align: center;
+  background-color:#1E232A;
+   display: inline;
+}
+
+.getbundlecosttitle{
+  font-family: 'Orbitron';
+  color:#FEFBEA;
+  background-color: #ffa008;
+  font-size: 30px;
+  margin-top:0px;
+  margin-bottom: 0px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border-radius: 20px
+}
+
+.getbundleimg{
+  width:600px;
+  height: auto;
+
+}
+
+.gettingthebundle{
+  display:flex;
+  margin-left:70px;
+  gap: 70px;
+  
+}
+
+.downloadimg{ 
+width:1200px;
+height:auto;
+}
+
+.stepstodownload{
+  font-family: 'Exo 2';
+  color: #ffa008;
+  font-size: 20px;
+  margin:5px;
+}
+
