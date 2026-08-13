@@ -552,33 +552,39 @@ margin: 0px;
   color: #1e232a;
   text-decoration: underline;
   font-size: 40px;
+
+  
 }
 
 .coolerdescription{
   font-family: "Exo 2";
   color: #1E232A;  
   font-size: 20px;
-  margin: 50px;
-  display: inline-block;
-  text-align: center;
-  vertical-align: middle;
   
 }
 
 .mysupercoolimage{
   width: 30%;
-  border-radius: 15px;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
+  border-radius: 10px;
+  display: flex;
+}
+
+.fishingcontent{
+  font-family: 'Orbitron';
+  color: #1e232a;
+  text-decoration: underline;
+  font-size: 40px;
 }
 
 .phishingcontent{
   font-family: 'Exo 2';
-  font-size: 40px;
+  font-size: 20px;
   color: #1e232a;
-  font-size: 30px;
-  margin-left: 70px;
+}
+
+.coolercontainer{
+  display: flex;
+  flex-direction: column;
 }
 /* Get Bundle Code */
 /* Code for Cost Card */
