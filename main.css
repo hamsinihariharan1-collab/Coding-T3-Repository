@@ -540,33 +540,31 @@ margin: 0px;
 
 /* Go Phish Code */
 .ednahomepagebody{
-  background-color: #c9d6e0;
+  background-color: #392719;
   margin: 0px;
 }
+
 .coolertitle{
   font-family: 'Orbitron';
   text-align: center;
-  color:#1e232a ;
+  color: #c9d6e0;
   font-size: 50px;
-  font-weight: bold;
+  font-weight: 900;
 }
+
 /* Content of the game */
-.cooleroverview{
+.coolersubtitle{
   font-family: 'Orbitron';
-  color: #1e232a;
+  color: #c9d6e0;
   text-decoration: underline;
   font-size: 40px;
-text-align: center;
-max-width: 800px;
+  margin: 0px;
 }
 
 .coolerdescription{
   font-family: "Exo 2";
-  color: #1E232A;  
+  color: #c9d6e0;  
   font-size: 20px;
-text-align: center;
-max-width: 800px;
-align-items: stretch;
 }
 
 .mysupercoolimage{
@@ -574,47 +572,38 @@ align-items: stretch;
   border-radius: 10px;
 }
 
-.fishingcontent{
-  font-family: 'Orbitron';
-  color: #1e232a;
-  text-decoration: underline;
-  font-size: 40px;
-  max-width: 800px;
-}
-
-.phishingcontent{
-  font-family: 'Exo 2';
-  font-size: 20px;
-  color: #1e232a;
-  max-width: 800px;
-}
 .coolercontainer {
   display: flex;
-  flex-direction: row;
-  align-items: flex-start;
-  gap: 50px 
-  width: 100% ;
-  max-width: 1200px;
-  margin: 0 auto 50px auto;
-  box-sizing: border-box;
-  clear: both;
-}
-
-.cooleroverviewcontainer{
- display: flex;
+  gap: 50px;
+  margin-left: 100px;
+  margin-right: 100px;
 }
 
 /* Get Bundle Code */
 /* Code for Cost Card */
+.thankyoucontainer{
+  width:100%;
+  background-color:#1E232A;
+  height:600px;
+  display:flex;
+}
+
+.thankyoudescrption{
+color:#ffa008;
+font-family: 'Exo 2';
+font-size: 30px;
+margin-left: 50px;
+vertical-align: center;
+
+}
 .getbundlecostcard{
   border: 5px solid #ffa008;
-  width: 600px;
+  max-width: 600px;
   height:495px;
   border-radius: 30px;
   margin-top:40px;
   text-align: center;
-  background-color:#1E232A;
-   display: inline;
+  background-color:#1E232A
 }
 
 .getbundlecosttitle{
@@ -622,8 +611,7 @@ align-items: stretch;
   color:#FEFBEA;
   background-color: #ffa008;
   font-size: 30px;
-  margin-top:0px;
-  margin-bottom: 0px;
+  margin:0px;
   padding-top: 20px;
   padding-bottom: 20px;
   border-radius: 20px
@@ -633,13 +621,6 @@ align-items: stretch;
   width:600px;
   height: auto;
 
-}
-
-.gettingthebundle{
-  display:flex;
-  margin-left:70px;
-  gap: 70px;
-  
 }
 
 .downloadimg{ 
