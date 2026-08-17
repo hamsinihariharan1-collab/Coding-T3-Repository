@@ -549,7 +549,8 @@ margin: 0px;
   text-align: center;
   color: #c9d6e0;
   font-size: 50px;
-  font-weight: 900;
+  font-weight: bold;
+  text-decoration: underline;
 }
 
 /* Content of the game */
@@ -569,14 +570,14 @@ margin: 0px;
 
 .mysupercoolimage{
   width: 600px;
+  height: 500px;
   border-radius: 10px;
 }
 
 .coolercontainer {
   display: flex;
   gap: 50px;
-  margin-left: 100px;
-  margin-right: 100px;
+
 }
 
 /* Get Bundle Code */
