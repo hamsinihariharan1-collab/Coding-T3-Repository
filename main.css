@@ -495,12 +495,13 @@ margin: 0px;
   border-radius: 10px;
   margin-left: auto;
   margin-right: auto;
+  width: 50%;
 }
 
 .mainscreenshot{
   width: 50%;
   display: block;
-  margin-left: 90px;
+  margin-left: auto;
   margin-right: auto;
 }
 
