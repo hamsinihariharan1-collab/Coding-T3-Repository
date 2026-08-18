@@ -600,6 +600,7 @@ margin: 0px;
   background-color:#1E232A;
   height:600px;
   display:flex;
+  align-items: center;
 }
 
 .thankyoudescrption{
@@ -608,7 +609,25 @@ font-family: 'Exo 2';
 font-size: 30px;
 margin-left: 50px;
 vertical-align: center;
+margin-top:0;
+}
 
+.thankyoutitle{
+  font-size: 40px;
+  margin-top: 20px;
+  color:#ffa008;
+  font-family: 'Orbitron';
+  text-align: center;
+
+}
+.fa.fa-solid.fa-check{
+  font-size: 50px;
+  border: 10px solid #ffa008;
+  border-radius: 150px;
+  background-color: #ffa008;
+  color:#FEFBEA;
+  margin-top: 10px;
+  margin-left: 370px;
 }
 .getbundlecostcard{
   border: 5px solid #ffa008;
@@ -637,9 +656,25 @@ vertical-align: center;
 
 }
 
+.HowtoDownloadContainer{
+  display: flex;
+  align-items: center;
+  margin: 75px;
+  gap: 50px;
+}
+
 .downloadimg{ 
-width:1200px;
-height:auto;
+width:100%;
+height: auto;
+margin: 0px;
+}
+
+.scratchdownloadimg{ 
+width:100%;
+height: auto;
+margin: 0px;
+padding-bottom: 45px;
+color: #c9d6e0
 }
 
 .stepstodownload{
