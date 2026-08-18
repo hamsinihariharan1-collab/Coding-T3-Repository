@@ -522,7 +522,7 @@ margin: 0px;
 
 /* Big T's Cyber Forest Code */
 .GetBundleButtonCyberforest{
-  background-color: #ffe445;
+  background-color: #ffee8d;
   padding: 10px;
   text-align: center;
   border-radius: 10px;
@@ -536,18 +536,24 @@ margin: 0px;
   display: block;
   margin-left: auto;
   margin-right: auto;
+  border: 10px solid lime;
 }
 
 .cyberforestheading{
   font-family: 'Orbitron';
   font-size: 50px;
   text-align: center;
-  color: lime;
+  color: rgb(0, 0, 0);
   text-decoration: underline;
+  background-color: rgb(34, 193, 34);
+  margin-left: 90px;
+  margin-right: 90px;
+  border-radius: 10px;
+  padding: 10px;
 }
 
 .cyberforestbody{
-  background-image: linear-gradient(#004e01, green);
+  background-image: linear-gradient(#001f01, rgb(0, 199, 0));
 }
 
 .cyberforesttext{
@@ -568,9 +574,6 @@ margin: 0px;
   color: lime;
   text-decoration: underline;
 }
-
-
-
 
 /* Go Phish Code */
 /* Go Phish Code */
