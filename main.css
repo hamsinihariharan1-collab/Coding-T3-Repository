@@ -2,9 +2,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Orbitron');
 
 /* Homepage Code */
+/* Color of Background */
 body{ background-color: #FEFBEA;
 margin: 0px;
 }
+
+/* Navigation Bar Code */
 .homepagenavigationbar{
   background-color: #1E232A;
   font-family: 'Exo 2';
@@ -15,6 +18,14 @@ margin: 0px;
   display: flex;
 }
 
+/* Image styling for the logo */
+.homepagelogo{
+  height:100px;
+  width: auto;
+  padding: 0px;
+}
+
+/* Code for the webpages in the navigation bar, linking to the indivdual games in the bundle */
 .navigation-link{
   text-decoration: none;
   color: #ffa008;
@@ -22,16 +33,19 @@ margin: 0px;
   padding: 0px 70px;
 }
 
+/* Code for when the user hovers over the indivdual game links in the navigation bar */
 .navigation-link:hover{
   text-decoration: none;
   color: #FEFBEA;
 }
 
+/* Styling for the game link the user is in (in the navigavtion bar) */
 .navigation-link.active{ 
   text-decoration: underline;
   color:#FEFBEA;
 }
 
+/* Styling for the 'Bit Bundle' title */
 .homepagetitle{ 
   color: #ffa008;
   font-family: 'Orbitron';
@@ -41,12 +55,15 @@ margin: 0px;
   padding: 20px;
 }
 
-.homepagelogo{
-  height:100px;
-  width: auto;
-  padding: 0px;
+/* Container that holds the cards for each game */
+.cardbundle{
+  display: flex;
+  gap: 60px;
+  padding-bottom:100px;
+  margin-left: 7%;
 }
-/* Display overviews of each individual games*/
+
+/* Styling for each container that holds the link & short desecription of each indivdual page*/
 .cardgame{ 
   width: 350px;
   padding: 10px;
@@ -54,6 +71,7 @@ margin: 0px;
   border-radius: 30px;
 }
 
+/* Styling for the game title in each card */
 .gameTitle{
   width:350px;
   font-family: 'Orbitron';
@@ -63,6 +81,7 @@ margin: 0px;
   padding: 0;
 }
 
+/* Styling for the images in each game */
 .homepageimage{
   width: 300px;
   height: auto;
@@ -71,6 +90,7 @@ margin: 0px;
   margin-right: auto;
 } 
 
+/* Styling for the description of each game */
 .gamehomepagedesc{
   text-align: center;
   font-size: 20px;
@@ -79,6 +99,7 @@ margin: 0px;
   color: #ffa008;
 }
 
+/* Styling for the button that holds the link to each page */
 .SeeMore{
   background-color: #ffa008;
   margin-bottom: 10px;
@@ -87,27 +108,31 @@ margin: 0px;
   border-radius: 10px;
   margin-left: 50px;
   margin-right: 50px;
-  
 }
+
+/* Styling for the text that links to each page when the user is hovering over it */
 .SeeMore:hover { 
   text-decoration: underline;
   color:#FEFBEA;
   }
 
+/* Styling for the text in the button which links to each page */
 .button{
   color:#FEFBEA;
   text-decoration: none;
   font-family: 'Orbitron';
 
 }
-.cardbundle{
-  display: flex;
-  gap: 60px;
-  padding-bottom:100px;
-  margin-left: 7%;
+
+/* Code for the container of the Why Bit Bundle Title & Text */
+.whybitbundle{
+  background-color:#1E232A;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  width: 100%;
 }
 
-/* Code for describing why to buy the bit bundle */
+/* Code for the subtitles in the Bit Bundle Homepage - for the Why Bit Bundle title &  Devices title */
 .homepagesubtitle{
   color: #ffa008;
   font-family: 'Orbitron';
@@ -116,26 +141,7 @@ margin: 0px;
   text-align: center;
 }
 
-.GetBundleButtonHP{
-  background-color: #ffa008;
-  padding: 10px;
-  text-align: center;
-  border-radius: 10px;
-  margin-left: 600px;
-  margin-right: 600px;
-  margin-top:25px;
-}
-
-.getbundleclickingbuttonHP{
-  color:#FEFBEA;
-  text-decoration: none;
-  font-family: 'Orbitron';
-}
-
-.getbundleclickingbuttonHP:hover{
-  text-decoration: underline;
-}
-
+/* Styling on the description of why to buy Bit Bundle */
 .homepagesubtitledescription{
   text-align: center;
   font-size: 20px;
@@ -146,14 +152,30 @@ margin: 0px;
   margin-right: 10%;
 }
 
-.whybitbundle{
-  background-color:#1E232A;
-  padding-top: 30px;
-  padding-bottom: 30px;
-  width: 100%;
+
+/* Code for the button containing the link to Get Bundle page */
+.GetBundleButtonHP{
+  background-color: #ffa008;
+  padding: 10px;
+  text-align: center;
+  border-radius: 10px;
+  margin-left: 600px;
+  margin-right: 600px;
+  margin-top:25px;
 }
 
-/* Code Used to display the compatible devices */
+/* Text which links to the Get Bundle page */
+.getbundleclickingbuttonHP{
+  color:#FEFBEA;
+  text-decoration: none;
+  font-family: 'Orbitron';
+}
+/* Styling for when the user is hovering over the text which contains the link to the Get Bundle page */
+.getbundleclickingbuttonHP:hover{
+  text-decoration: underline;
+}
+
+/* Card for each compatible device */
 .DeviceCard{
   background-color:#1E232A;
   width: 300px;
@@ -164,6 +186,7 @@ margin: 0px;
   padding-right: 15px;
 }
 
+/* Name of the comptabile devices*/
 .devicename{
   color: #ffa008;
   font-family: 'Orbitron';
@@ -173,6 +196,7 @@ margin: 0px;
   margin-top: 10px;
 }
 
+/* Styling of the description for each compatible device */
 .devicecardesc{
   font-family:'Exo 2';
   color:#ffa008;
@@ -180,6 +204,7 @@ margin: 0px;
   margin-top: 0px;
 }
 
+/* Container that holds all the compatible device cards */
 .devicelineup{
   display:flex;
   gap: 20px;
@@ -187,17 +212,13 @@ margin: 0px;
   margin-right: 7%;
 }
 
-.fa {
-  font-size: 20px;
-}
-.fa fa-brands fa-windows{
-  font-size: 20px;
-}
+/* The Windows/Tablet icon styling - which aren't avalible for free in the font awesome pack */
 .homepageicon{
   width: 24px;
   height: auto;
 }
-/* Code of Review Card */
+
+/* Code for each Review Card on the homepage */
 .reviewcardHP{
   min-width: 250px;
   height: 200px;
@@ -210,6 +231,7 @@ margin: 0px;
 }
 
 /* Code Used for the Footer */
+/* Container for all elements in the footer */
 .homepagefooter{
   margin-top: 50px;
   background-color: #ffa008;
@@ -220,6 +242,7 @@ margin: 0px;
   display:flex
 }
 
+/* Links to all gamepages in the footer */
 .pagedetailslink{
   font-family: 'Exo 2';
   color: #1E232A;
@@ -227,6 +250,7 @@ margin: 0px;
   text-decoration: none;
 }
 
+/* Styling for when the user hovers over any link to the gamepages */
 .pagedetailslink:hover{
   font-family: 'Exo 2';
   color: #1E232A;
@@ -234,6 +258,7 @@ margin: 0px;
   text-decoration: underline;
 }
 
+/* Styling for the 'Contact Us' title in the first coloumn */
 .contacttitle{
   font-family: 'Exo 2';
   color: #1E232A;
@@ -241,12 +266,14 @@ margin: 0px;
   padding-top: 20px;
 }
 
+/* Styling for the contact info under the 'Contact Us' title */
 .contactdetail{
   font-family: 'Exo 2';
   color: #1E232A;
   font-size: 20px;
 }
 
+/* Styling for the titles in the center coloumn of the footer */
 .footercentercolumntitle{
   font-family: 'Exo 2';
   color: #1E232A;
@@ -254,6 +281,7 @@ margin: 0px;
   margin-left:200px
 }
 
+/* Styling for the images in the center coloum of the footer */
 .footercentercolumnimage{
   width: 400px;
   height: auto;
@@ -261,6 +289,7 @@ margin: 0px;
   padding-bottom: 30px;
 }
 
+/* Styling for the 'Stay Connected' title in the final coloumn of the footer */
 .StayConnectedtitle{
   font-family: 'Exo 2';
   color: #1E232A;
@@ -268,6 +297,7 @@ margin: 0px;
   margin-left:300px
 }
 
+/* Styling for the Stay Connected image in the final coloumn of the footer */
 .StayConnectedImage{
   width: 300px;
   height: auto;
@@ -276,6 +306,7 @@ margin: 0px;
   margin-right: 50px;
 }
 
+/* Styling for the 'Secured By' title in the final coloumn in the footer */
 .SecuredByTitle{
   font-family: 'Exo 2';
   color: #1E232A;
@@ -285,6 +316,7 @@ margin: 0px;
   padding-bottom: 0px;
 }
 
+/* Styling for the Cyber Cipher logo in the final coloumn of the footer */
 .SecuredByImage{
   width: 200px;
   height: auto;
@@ -292,22 +324,25 @@ margin: 0px;
   border-radius: 20px;
 }
 
-/* End of Homepage Code! */
-
 
 /* Bookaflight Code */
-/* Bookaflight Header */
+
+/* Color of Background */
 .bookaflightbody{
   background-color: #ffe455;
   margin: 0px;
 }
 
+/* Code for the Header of the Bookaflight */
+
+/* Styling of the header of the page  */
 .headerforbookaflight {
   height: 500px;
   background-color: #ff5659;
   display: block;
 }
 
+/* Container of all elements in the header */
 .bookaflightheadercontainer {
   display: flex;
   height: 500px;
@@ -315,6 +350,7 @@ margin: 0px;
   align-items: center;
 }
 
+/* Container holding the short description of Bookaflight and link to the Get Bundle page */
 .bookaflightheadertextcontainer{
   margin-right: 75px;
   background-color: #aaecff;
@@ -324,13 +360,15 @@ margin: 0px;
   margin-left: 75px;
 }
 
-.bookaflightheadertext{
+/* Styling for the title of the game in the header */
+.bookaflightheadertitle{
   font-family: 'Orbitron';
   color: #ff5659;
   font-size: 30px;
   margin-bottom:0;
 }
 
+/* Styling for the short description of Bookaflight in the header */
 .bookaflightheaderdescription{
   font-family: 'Exo 2';
   color: #ff5659;
@@ -340,6 +378,7 @@ margin: 0px;
   margin-top: 0;
 }
 
+/* Code for the button containing to the link to Get Bundle Page */
 .GetBundleButton{
   background-color: #ffe445;
   padding: 10px;
@@ -349,35 +388,31 @@ margin: 0px;
   margin-right: 70px;
 }
 
-.getbundleclickingbutton{
+/*Text in the button that links to the Get Bundle Page */
+.getbundlebuttonlink{
   color:#1E232A;
   text-decoration: none;
   font-family: 'Orbitron';
 }
 
-.getbundleclickingbutton:hover { 
+/* Styling for when the user is hovering over the text that links to the Get Bundle Page */
+.getbundlebuttonlink:hover { 
   text-decoration: underline;
   color:#1E232A;
   }
 
 
 /* Why Bookaflight Code */
+
+/* Container holding all the elements that encourage users to play Bookaflight */
 .whybookaflightcontainer{
   background-color: #aaecff;
   width: 100%;
   height: 500px;
   margin-top: 50px;
 }
-.whybookaflightimagedesccontainer{
-  display: flex;
-}
 
-.bookaflighticon{
- width: 470px;
- height: 400px;
- margin-top: -20px;
-}
-
+/* Styling for the title in the Why Bookaflight container */
 .whybookaflighttitle{
   color: #ff5659;
   font-family: 'Orbitron';
@@ -387,6 +422,12 @@ margin: 0px;
   margin-bottom: 0;
 }
 
+/* Display for all elements in the Why Bookaflight container which excludes the title */
+.whybookaflightimagedesccontainer{
+  display: flex;
+}
+
+/* Styling for the description of why users should play Bookaflight */
 .whybookaflightdescription{
   margin-top: 5px;
   font-family: 'Exo 2';
@@ -394,7 +435,17 @@ margin: 0px;
   min-width: 600px;
   margin-left:50px;
 }
+
+/* Styling for the icon that sits within the Why Bookaflight container */
+.bookaflighticon{
+ width: 470px;
+ height: 400px;
+ margin-top: -20px;
+}
+
 /* Educational Benefits Code */
+
+/* Styling for the title of what educational benefits a user can gain while playing bookaflight */
 .educationalbenefitstitle{
   color: #ff5659;
   font-family: 'Orbitron';
@@ -402,38 +453,41 @@ margin: 0px;
   padding-top: 50px; 
   margin-bottom: 25px;
 }
+/* Display for all elements in the Educational Benefits container which excludes the title  */
+.educationalbenefitscontainer{
+  display: flex;
+}
 
+/* Container for the dotpoints of the Education Benefits Bookaflight offers*/
+.educationalbenefitsdotpointcontainer{
+  margin-left: 50px;
+  margin-right: 100px;
+}
+
+/* Styling for the dotpoints which introduce the educational outcomes of Bookaflight */
 .educationalbenefitsdotpoint{
   font-family: 'Exo 2';
   font-size: 25px;
   color: #ff5659;
 }
-.BookaflightEducationalBenefits{
+
+/* Styling for the image which displays an educational benefit of Bookaflight in action */
+.BookaflightEducationalBenefitsImg{
   width:500px;
   height: 400px;
   margin-left: 100px;
   margin-top: 40px;
 }
 
-.educationalbenefitsimage{
-  width: 400px;
-  height: auto;
-  margin-left: 100px;
-}
-.educationalbenefitscontainer{
-  display: flex;
-}
-
-.educationalbenefitsdotpointcontainer{
-  margin-left: 50px;
-  margin-right: 100px;
-}
-
+/* Styling for the circle icon for each dot point */
 .fa-solid.fa-circle {
   color: #ff5659;
   font-size: 15px;
 }
+
 /* Reviews Code */
+
+/* Container holding all reviews */
 .reviewcontainer{
   display: flex;
   gap: 50px;
@@ -441,6 +495,7 @@ margin: 0px;
   margin-right:20%
 }
 
+/* Styling for each review card of the Bookaflight page */
 .reviewcard{
   min-width: 250px;
   height: 150px;
@@ -452,15 +507,19 @@ margin: 0px;
   border: 5px solid #ff5659;
 }
 
+/* Styling for each profile picture in the review card */
 .profilepicture{
   width: 50px;
   height:50px;
 }
+
+/* Container holding the profile picture and username */
 .UserNameContainer{
   display: flex;
   gap:5px;
 }
 
+/* Styling for each username of the review card */
 .UserName{
   font-size:20px;
   font-style: italic;
@@ -468,6 +527,7 @@ margin: 0px;
   margin-bottom: 3px;
 }
 
+/* Styling for the each star in the star rating */
 .fa-solid.fa-star{
   color:#ffa008;
   margin-top: 0;
@@ -530,7 +590,6 @@ margin: 0px;
 
 
 /* Go Phish Code */
-/* Go Phish Code */
 .ednahomepagebody{
   background-color: #392719;
   margin: 0px;
@@ -588,42 +647,10 @@ margin: 0px;
 }
 
 /* Get Bundle Code */
-/* Code for Cost Card */
-.thankyoucontainer{
-  width:100%;
-  background-color:#1E232A;
-  height:600px;
-  display:flex;
-  align-items: center;
-}
 
-.thankyoudescrption{
-color:#ffa008;
-font-family: 'Exo 2';
-font-size: 30px;
-margin-left: 50px;
-margin-right:50px;
-vertical-align: center;
-margin-top:0;
-}
+/* Code for Get Bundle Header */
 
-.thankyoutitle{
-  font-size: 40px;
-  margin-top: 20px;
-  color:#ffa008;
-  font-family: 'Orbitron';
-  text-align: center;
-
-}
-.fa.fa-solid.fa-check{
-  font-size: 50px;
-  border: 10px solid #ffa008;
-  border-radius: 150px;
-  background-color: #ffa008;
-  color:#FEFBEA;
-  margin-top: 10px;
-  margin-left: 410px;
-}
+/* Code for the Bit Bundle Price card which holds the price, title and image of the bundle */
 .getbundlecostcard{
   border: 5px solid #ffa008;
   max-width: 500px;
@@ -635,6 +662,7 @@ margin-top:0;
   margin-left: 50px
 }
 
+/* Styling for the titles in the Bit Bundle Price Card */
 .getbundlecosttitle{
   font-family: 'Orbitron';
   color:#FEFBEA;
@@ -646,12 +674,54 @@ margin-top:0;
   border-radius: 20px
 }
 
+/* Styling for the image in the Bit Bundle Price Card */
 .getbundleimg{
   width:500px;
   height: auto;
+}
+
+/* Container for the header containg the Bit Bundle Price Card, 'Thank Yo'u' title and thank you description */
+.thankyoucontainer{
+  width:100%;
+  background-color:#1E232A;
+  height:600px;
+  display:flex;
+  align-items: center;
+}
+
+/* Styling for the thank you description in the header */
+.thankyoudescrption{
+color:#ffa008;
+font-family: 'Exo 2';
+font-size: 30px;
+margin-left: 50px;
+margin-right:50px;
+vertical-align: center;
+margin-top:0;
+}
+
+/* Styling for the 'Thank you' title */
+.thankyoutitle{
+  font-size: 40px;
+  margin-top: 20px;
+  color:#ffa008;
+  font-family: 'Orbitron';
+  text-align: center;
 
 }
 
+/* Styling for the check icon above the 'Thank you' title */
+.fa.fa-solid.fa-check{
+  font-size: 50px;
+  border: 10px solid #ffa008;
+  border-radius: 150px;
+  background-color: #ffa008;
+  color:#FEFBEA;
+  margin-top: 10px;
+  margin-left: 410px;
+}
+
+/* Container for the elemens which show how to download Bit Bundle through different platforms */
 .HowtoDownloadContainer{
   display: flex;
   align-items: center;
@@ -659,6 +729,7 @@ margin-top:0;
   margin-right: 5%;
   gap: 25px;
 }
+/* Card which holds the icon and description on how to download for each platform */
 .downloadcard{
   background-color:#1E232A;
   padding: 25px;
@@ -666,18 +737,14 @@ margin-top:0;
   width: 600px;
   border-radius: 20px;
 }
-.appledownloadimg{ 
+/* Styling for the image which shows how to download through Apple Appstore and Scratch */
+.downloadimg{ 
 width:100%;
 height: auto;
 margin: 0px;
 }
 
-.scratchdownloadimg{ 
-width:100%;
-height: auto;
-margin: 0px;
-}
-
+/* Styling for the numbered steps on how to download */
 .stepstodownload{
   font-family: 'Exo 2';
   color: #ffa008;
