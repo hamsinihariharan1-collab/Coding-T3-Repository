@@ -604,6 +604,7 @@ margin: 0px;
   text-align: center;
   color: black;
   background-color: #c8d6e1;
+  border: 8px solid black;
   font-size: 50px;
  margin-left: 500px;
   margin-right: 200px;
@@ -618,14 +619,15 @@ margin: 0px;
   font-weight: bold;
   text-decoration: underline;
   font-size: 30px;
-  margin: 0px;
+  margin: 50px;
 }
 /*Content description*/
 .coolerdescription{
   font-family: "Exo 2";
   color: #ddcb99;  
   font-size: 20px;
-  line-height: 30px;
+  line-height: 40px;
+  margin: 50px;
 }
 
 .mysupercoolimage{
@@ -639,6 +641,8 @@ margin: 0px;
   gap: 50px;
 
 }
+
+
 /*button to link to the get bundle page */
 .Bundlefishlink{
   background-color: #ffa008;
@@ -651,7 +655,7 @@ margin: 0px;
 
 .Bundlefishlink:hover{
   text-decoration: underline;
-  color: #ddcb99;
+  color: white;
 }
 
 /* Get Bundle Code */
