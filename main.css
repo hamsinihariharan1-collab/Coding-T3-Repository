@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Exo+2');
 @import url('https://fonts.googleapis.com/css2?family=Orbitron');
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
 
 /* Homepage Code */
 /* Color of Background */
@@ -596,7 +597,7 @@ margin: 0px;
 }
 /*Titles of the game*/
 .coolertitle{
-  font-family: 'Orbitron';
+  font-family: 'Press Start 2P';
   text-align: center;
   color: black;
   background-color: #c8d6e1;
@@ -609,7 +610,7 @@ margin: 0px;
 
 /* Content of the game */
 .coolersubtitle{
-  font-family: 'Orbitron';
+  font-family: 'Press Start 2P';
   color: #bfa168;
   font-weight: bold;
   text-decoration: underline;
